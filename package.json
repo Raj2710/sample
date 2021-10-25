@@ -1,0 +1,30 @@
+{
+  "name": "url-shortenerserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Priya",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.2",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12",
+    "randomatic": "^3.1.1",
+    "randomstring": "^1.2.1",
+    "uuid": "^8.3.2"
+  }
+}
